@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smothing: antialiased !important;
+}
+
+h1{
+color: #152b6f;
+font-family: 'Roboto';
+text-align: justify;
+}
+
+aside{
+    float: right;
+    width: 260px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-right: 1%;
+    box-shadow: 1px 0 3px rgb(0 0 0 / 35%);
+}
+
+
+/* divs de pessoas e avaliacoes */
+#conteiner-a{
+    background-color: #f5f5f5;
+    width: 850px;
+    height: 500px;
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-left: 7%;
+    border-radius: 2%;
+    box-shadow: 1px 0 3px rgb(0 0 0 / 25%);}
+#conteiner-a h1{
+    color: #152b6f;
+    text-align: center;
+    font-family: 'Roboto';
+
+}
+
+
+div.user {
+    width: 97%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 37px 14px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.user div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.user div.infoUser div.imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+
+div.user div.infoUser strong {
+    font-size: 15px;
+    color: #152b6f;
+    margin-left: 10px;
+}
+
+.botoes{
+    border: none;
+    padding: 6px;
+    background-color: white;
+    cursor: pointer;
+}
+.botoes:hover{
+    border: none;
+    padding: 6px;
+    background-color: rgb(222, 223, 226);
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.botao-pesquisa{
+background-color: #152b6f;
+color: white;
+margin-left: 6.2%;
+width: 35%;
+height: 25px;
+border-radius: 5px;
+outline: none;
+border:none;
+}
+.botao-pesquisa:hover{
+    background-color:#5266a3 ;
+    color: #f5f5f5;
+}
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }

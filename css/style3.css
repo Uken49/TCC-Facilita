@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #404040;
+    font-family: "Roboto", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+}
+
+.secao-perfil-usuario .perfil-usuario-body,
+.secao-perfil-usuario {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao-perfil-usuario .perfil-usuario-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}
+
+.secao-perfil-usuario .perfil-usuario-porta {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 17rem;
+    background:#152b6f ;
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+.secao-perfil-usuario .perfil-usuario-avatar {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid #FFFFFF;
+    background-color: #DFE5F2;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 90px);
+    z-index: 1;
+}
+
+.secao-perfil-usuario .perfil-usuario-avatar img {
+    width: 165px;
+    height: 165px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.secao-perfil-usuario .perfil-usuario-avatar .boton-avatar {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border: 0;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.secao-perfil-usuario .perfil-usuario-body {
+    width: 70%;
+    position: relative;
+    max-width: 750px;
+}
+
+.secao-perfil-usuario .perfil-usuario-body .titulo {
+    display: block;
+    width: 100%;
+    font-size: 1.75em;
+    margin-bottom: 0.5rem;
+}
+
+.secao-perfil-usuario .perfil-usuario-body .texto {
+    color: #848484;
+    font-size: 0.95em;
+}
+
+.secao-perfil-usuario .perfil-usuario-info,
+.secao-perfil-usuario .perfil-usuario-bio {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.secao-perfil-usuario .perfil-usuario-bio {
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.secao-perfil-usuario .lista-dados {
+    width: 50%;
+    list-style: none;
+}
+
+.secao-perfil-usuario .lista-dados li {
+    padding: 5px 0;
+}
+
+.secao-perfil-usuario .lista-dados li>.icono {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+.mail{
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+.compartilhado{
+    background-color: white;
+    width: 48%;
+    height: 393px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+}
+.letra{
+    font-family: 'Roboto';
+    color:#152b6f ;
+    font-size: 20px;
+} 
+.teste{
+    text-align: center;
+}
+div.newPost {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.newPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newPost div.infoUser div.imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+
+div.newPost div.infoUser strong {
+    font-size: 15px;
+    color: #152b6f;
+    margin-left: 10px;
+}
+
+div.newPost form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.newPost form.formPost textarea {
+    height: 90px;
+    background: #fbfbfb;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    color: #727272;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+div.newPost form.formPost div.iconsAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm {
+    background: #152b6f;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm {
+    background: #152b6f;
+}
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm:hover {
+    background: #29469b;
+    transition: background 0.2s;
+}
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }

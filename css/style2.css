@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smothing: antialiased !important;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #152b6f;
+    display: flex;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header img {
+    height: 170%;
+    float: left;
+    /* margin: 0% 0% 0% 6%; */
+}
+.header form{
+    width: 45%;
+
+}
+.header input[type="text"]{
+    width: 50%;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.header input:hover{
+    background: #f5f5f5;
+    transition: 200ms;
+}
+
+.header button{
+    width: 30px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgb(241, 244, 245);
+
+}
+.header button:hover{
+    background: #f5f7f5;
+    transition: 200ms;
+}
+.header a{
+    margin: 0 0% 0 0%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.header a:hover{
+    color:rgb(190, 190, 190);
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+/* CONFIG */
+.dropdown a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    padding: 5px;
+    color: white;
+}
+.dropdown{
+    float: right;
+    padding: 10px;
+    height: 35px;
+    width: 50px;
+}
+.dropdown:hover .submenu{
+    display: flex;
+}
+.dropdown .submenu{
+    float: right;
+    flex-direction: column;
+    display:none ;
+    background: rgb(184, 200, 231);
+    box-shadow: 0 8px 8px rgb(0 0 0/ 5%);
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    padding: 6px;
+    width: 100px;
+    top: 100%;
+    z-index: 2;
+    left: 0;
+    
+}
+.dropdown .submenu a:hover{
+    background: #d6dae0;
+    transition: 200ms;
+    border-radius: 4px;
+}
+
+.Config{
+   width: 100%;
+   float: right;
+}
+.Config:hover{
+    background:#e6e6e6;
+    border-radius: 5px;
+}
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#SelecaoImagem {
+  display: none;
+  cursor: pointer;
+}
+.fa-image:before {
+    cursor: pointer;
+}
+
+.label-file{
+    cursor: pointer;
+    padding: 6px 20px
+}
+
+div.newPost {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.newPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newPost div.infoUser div.imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+
+div.newPost div.infoUser strong {
+    font-size: 15px;
+    color: #152b6f;
+    margin-left: 10px;
+}
+
+div.newPost form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.newPost form.formPost textarea {
+    height: 90px;
+    background: #fbfbfb;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    color: #727272;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+div.newPost form.formPost div.iconsAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm {
+    background: #152b6f;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm {
+    background: #152b6f;
+}
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm:hover {
+    background: #29469b;
+    transition: background 0.2s;
+}
+.btnSubmitForm:hover{
+    background-color: #d0d7ec;
+    transition-duration: 0.2s;
+}
+
+ul.posts li.post{
+    margin-bottom: 50px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1);
+
+}
+ul.posts li.post div.infoUserPost{
+    align-items: center;
+}
+ul.posts li.post div.infoUserPost div.imgUserPost{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background:#152b6f ;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >strong{
+    color:#152b6f ;
+
+}
+ul.posts li.post div.infoUserPost div.nameAndHour >p{
+    color:#D1D1D1 ;
+    font-size: 12px;
+}
+ul.posts li.post div.actionBtnPost{
+    display: flex;
+    align-items: center;
+}
+ul.posts li.post div.actionBtnPost button.filesPost{
+    padding: 5px 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+ul.posts li.post div.actionBtnPost button.filesPost{
+    margin-right: 5px;
+}
+
+#like{
+    background: #e99191;
+    margin-right: 1%;
+    width: 14%;
+    height: 25px;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+#share{
+    background: #87a3c8;
+    width: 16%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+
+
+}
+#share:hover{
+    background:rgb(105, 105, 252);
+}
+
+.menubutton{
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+.menubutton:hover{
+    border: none;
+    background-color: rgb(218, 220, 231);
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }

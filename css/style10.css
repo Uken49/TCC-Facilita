@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smothing: antialiased !important;
+}
+
+h1{
+color: #152b6f;
+font-family: 'Roboto';
+text-align: center;
+font-size: 20px;
+}
+
+a{
+    font-size: 13px; 
+    text-decoration: none;
+}
+strong{
+    color:#152b6f ;
+}
+
+
+div.user {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 37px 14px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.recebidos{
+    background-color:#fefeff;
+    width: 50%;
+    height: 115px;
+    margin-left: 25%;
+    border-radius: 5px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
+    
+}
+.imgUser {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #333;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }
+

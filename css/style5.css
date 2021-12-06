@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color:#f5f5f5;
+}
+h1{
+    font-family: 'Roboto';
+    color:#243e8b ;
+    padding: 4%;
+    text-align: center;
+    height: 2px;
+}
+h6{
+    color: #152b6f;
+}
+main {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+input{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+fieldset{
+    width: 100%;
+}
+.botao1{
+    float: left;
+    padding: 8px 8px;
+    border-radius: 50px;
+    background: #b5c7ff;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Roboto';
+    position: relative;
+    top: 5;
+    right: 5;
+}
+.habilidade{
+    width: 8.5%;
+    height: 30px;
+    background-color: green;
+    color: rgb(231, 227, 227);
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+.habilidade:hover{
+    background-color: rgb(90, 122, 24);
+}
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }

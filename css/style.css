@@ -1,0 +1,392 @@
+/*-------------------------------INICIO - CONFIGURACOES GERAIS-------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+v* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h2 {
+    font-family: 'Roboto', serif;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'Roboto', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+nav {
+    flex-direction: row;
+    align-items: center;
+}
+
+/*-------------------------------FIM - CONFIGURACOES GERAIS-------------------------------*/
+
+
+/*-------------------------------INICIO - CONFIGURACOES GENERICAS-------------------------------*/
+
+.justify {
+    justify-content: flex-end;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.geral {
+    position: relative;
+    margin-bottom: 1%;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: #152b6f;
+    color: rgb(119, 119, 119);
+    box-shadow: 0 0 12px rgba(255, 251, 251, 0.3);
+
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.color-cinza {
+    color: #99948B;
+}
+
+.color-branco {
+    color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-5 {
+    gap: 5%;
+}
+
+.gap-10 {
+    gap: 10%;
+}
+
+.gap-15 {
+    gap: 15%;
+}
+
+.grid {
+    display: grid;
+    justify-items: center;
+}
+
+.grid-template-columns {
+    grid-template-columns: 500px 500px;
+    grid-template-columns: repeat(2, 43.33%);
+    gap: 5%;
+}
+
+/*-------------------------------FIM - CONFIGURACOES GENERICAS-------------------------------*/
+
+.externo {
+    border-radius: 5px;
+    background: #fafbfc;
+    border: 1px solid #ccc;
+    padding: 20px 8%;
+}
+
+.interno {
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.form-daora {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+/*----------------------------------------INICIO - CADASTRO---------------------------------------- */
+
+.area-cadastro {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-cadastro a {
+    color: rgb(82, 84, 87);
+    font-size: 250%;
+    margin: 3% 0% 3% 0%;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.area-cadastro a:hover {
+    color: rgb(208, 210, 223);
+    text-decoration: none;
+}
+
+.decoracao-cadastro {
+    width: 73%;
+    min-width: 73%;
+}
+
+/*----------------------------------------FIM - CADASTRO---------------------------------------- */
+
+
+/*----------------------------------------INICIO - MENU---------------------------------------- */
+
+.menu {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding-right: 3%;
+}
+
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: rgb(255, 255, 255)
+}
+
+.bg-azul {
+    background-color: #152b6f;
+}
+
+/*----------------------------------------FIM - MENU---------------------------------------- */
+
+
+/*----------------------------------------INICIO - IMAGEM---------------------------------------- */
+
+.imagem-redes {
+    height: 24%;
+    width: 24%;
+    margin-top: 7px;
+    margin-left: 3%;
+    float: left;
+}
+
+.imagem-logo {
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.imagem-vaga {
+    float: right;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 80px;
+    left: 58px;
+    border-radius: 5px;
+}
+
+.imagem-index{
+    width: 50%;
+    display: table;
+    margin: 5% auto;
+}
+.imagem-index img{
+    min-width: 80%;
+}
+
+/*----------------------------------------FIM - IMAGEM---------------------------------------- */
+
+
+/*-------------------------------INICIO - ARRUMANDO O "SOBRE NÓS"-------------------------------*/
+
+.principal {
+    margin-top: 5%;
+    width: 100%;
+    float: left;
+    padding: 4% 8%;
+}
+
+.sobre {
+    float: left;
+    padding: 0 80px 20px 0;
+    font-size: 1em;
+    color: rgb(78, 78, 78);
+    text-align: justify;
+    font-size: 35px;
+}
+
+.sobre h2 {
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+.sobre img {
+    width: 40%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+/*-------------------------------FIM - ARRUMANDO O "SOBRE NÓS"-------------------------------*/
+
+
+/*----------------------------------------INICIO - RODAPE---------------------------------------- */
+
+#rodape {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    float: left;
+    background-color: #152b6f;
+}
+.aside-rodape {
+    float: right;
+    max-width: 28%;
+}
+.rodape-credito {
+    text-align: justify;
+    color: rgb(223, 222, 222);
+}
+.rodape-conteudo {
+    text-align: center;
+    color: rgb(223, 222, 222);
+}
+.fale-conosco {
+    margin-right: 43%;
+    font-family: 'Roboto';
+}
+.icone {
+    float: right;
+}
+.icone a {
+    color: #fff;
+    float: left;
+    margin-left: 25px;
+}
+.btn-style {
+    background-color: #152b6f;
+}
+.btn-style:hover {
+    background-color: rgb(231, 231, 231);
+}
+.btn-style:focus {
+    outline: none;
+}
+
+/*----------------------------------------FIM - RODAPE---------------------------------------- */
+
+
+/*----------------------------------------INICIO - LOGIN---------------------------------------- */
+
+.login-form {
+    width: 110%;
+    max-width: 110%;
+    min-width: 110%;
+}
+.decoracao-login {
+    margin: 2%;
+}
+.slogan {
+    width: 83%;
+    max-width: 85%;
+    min-width: 85%;
+    float: left;
+}
+.figcaption{
+    font-family:'Roboto';
+    font-size: 17px;
+    text-align: justify;
+}
+.figcaption img{
+    height: 10%;
+}
+.externo-login {
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+    background: #fafbfc;
+    border: 1px solid #ccc;
+    padding: 4% 8%;
+}
+.btn-login {
+    background-color: #083fe4;
+    text-decoration: none;
+    color: white;
+}
+input.btn-login {
+    color: white;
+    margin: 2% 0% 0% 2%;
+}
+.btn-login:hover {
+    background-color: #152b6f;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: white;
+}
+.btn-login a {
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.btn-login a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+body::-webkit-scrollbar {
+    background: rgb(241, 243, 245);        
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #152b6fb4;   
+    border-radius: 20px;       
+    border: 3px solid rgb(229, 232, 235);  
+  }
+
+/*----------------------------------------FIM - LOGIN---------------------------------------- */

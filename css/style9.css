@@ -1,0 +1,65 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+        body{
+            font-family: 'Roboto';
+        }
+        h3{
+            color: #152b6f;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contato {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .field {
+            font-family: 'Roboto';
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+
+        }
+
+        textarea {
+            height: 150px;
+            resize: none
+        }
+        .enviar{
+            font-family: 'Roboto';
+            font-size: 18px;
+            background-color:#e0dfee;
+            color: rgb(150, 150, 160);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            height: 50px;
+        }
+        .enviar:hover{
+            background-color: #e9eaf1;
+            color: rgb(152, 152, 194);
+        }
+        body::-webkit-scrollbar {
+            width: 12px;               
+          }
+          
+        body::-webkit-scrollbar {
+            background: rgb(241, 243, 245);        
+          }
+          
+        body::-webkit-scrollbar-thumb {
+            background-color: #152b6fb4;   
+            border-radius: 20px;       
+            border: 3px solid rgb(229, 232, 235);  
+          }
