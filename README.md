@@ -11,7 +11,6 @@
   <h1>Programadores</h1>
   <b><i>Helder D. R. Alvarenga</i></b><br>
   Vinicius de Almeida Nunes<br>
-  <b><i>OBS: Do segundo para o terceiro módulo eu tive que trocar de grupo.</i></b>
 </p>
 
 <div>
