@@ -4,7 +4,8 @@
     Todos os arquivos do projeto de TCC (Facilita+) da Etec de Guaianases realizado em 2021<br>
     1° Para utilizar os arquivos, primeiro será nescessário baixar e importar o "bdfacilita", localizado na pasta "sql"<br>
     2° O login para acessar a "area-adm" é <b>Email: adm@adm.com</b> e <b>Senha: 123</b><br>
-    3° A menção/nota para esse projeto foi MB (muito bom), sendo a maior menção possível.
+    3° A menção/nota para esse projeto foi MB (muito bom), sendo a maior menção possível.<br>
+    <a href="http://facilitamais.atwebpages.com/">Link para o site<a/>
   </i><br>
 <p>
 <p>
