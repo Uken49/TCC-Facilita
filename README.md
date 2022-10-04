@@ -11,7 +11,8 @@
 <p>
   <h1>Programadores</h1>
   <b><i>Helder D. R. Alvarenga</i></b><br>
-  Vinicius de Almeida Nunes<br>
+  <a href="https://github.com/VinyProgramador">Vinicius de Almeida Nunes</a><br>
+  <a href="https://github.com/VictorSilva27">Victor Silva</a>
 </p>
 
 <div>
